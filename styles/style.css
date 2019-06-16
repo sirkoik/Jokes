@@ -28,6 +28,13 @@
     }
 }
 
+@media screen and (orientation: landscape) {
+    .content {
+        font-size: 5vh;
+        width: 50%;
+    }
+}
+
 .credit {
     font-style: normal;
     font-size: 80%;
