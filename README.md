@@ -1,6 +1,10 @@
 # Jokes
 Jokes page.
 
+# v0.0.3a
+* Added a credits section
+* All basic functionality is now here.
+
 # v0.0.2a
 * Links
 * More jokes

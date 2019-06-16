@@ -1,4 +1,4 @@
-const VERSION = '0.0.2a';
+const VERSION = '0.0.3a';
 
 var Jokes = new function() {
     var alreadyShown = [];
@@ -49,10 +49,19 @@ var Jokes = new function() {
             //document.querySelector('#audio'+randSoundIndex).play();
             document.querySelector('#audio1').play();
         });
+
+        document.querySelector('.credits-link').addEventListener('click', function(e) {
+            document.querySelector('.credits-container').style.display = 'flex';
+        });
+        
+        document.querySelector('.credits-container').addEventListener('click', function(e) {
+            document.querySelector('.credits-container').style.display = 'none';
+        });        
     }
 };
 
 window.onload = function() {
     Jokes.bindEvents();
     document.querySelector('.content').innerHTML = Jokes.toString();
+    document.querySelector('.version').textContent = VERSION;
 }
