@@ -26,19 +26,10 @@
     text-align: right;
 }
 
-.nav {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    text-align: right;
-    
-    font-size: 3vh;
-    margin: 1vh;
+a {
+    color: forestgreen;
 }
 
-.rimshot {
-    color: red;
-}
 
 
 .credits-container {
@@ -54,7 +45,12 @@
     padding: 1em;
 }
 
+.nodecorate {
+    text-decoration: none;
+}
+
 .footer {
+    font-size: 3vh;
     position: fixed;
     text-align: right;
     z-index: 2;
@@ -62,4 +58,14 @@
     bottom: 0;
     right: 0;
     padding: 1em;
+}
+
+.footer a {
+    font-family: monospace;
+    color: forestgreen;
+}
+
+#rimshot {
+    color: red;
+    font-size: 5vh;
 }
