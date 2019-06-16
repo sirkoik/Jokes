@@ -14,14 +14,14 @@
 }
 
 .content {
-    font-size: 5vh;
+    font-size: 3.5vh;
     font-style: italic;
     width: 90%;
     cursor: pointer;
 }
 
 /* for bigger screens */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 800px) {
     .content {
         font-size: 5vh;
         width: 50%;
