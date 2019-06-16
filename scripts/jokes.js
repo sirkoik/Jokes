@@ -1,4 +1,4 @@
-const VERSION = '0.0.1a';
+const VERSION = '0.0.2a';
 
 var Jokes = new function() {
     var alreadyShown = [];
@@ -42,6 +42,11 @@ var Jokes = new function() {
     this.bindEvents = function() {
         document.querySelector('.content').addEventListener('click', function(e) {
             this.innerHTML = _self.toString();
+        });
+        
+        document.querySelector('.rimshot').addEventListener('click', function(e) {
+            var randSoundIndex = 1 + Math.floor(Math.random() * 2);
+            document.querySelector('#audio'+randSoundIndex).play();
         });
     }
 };

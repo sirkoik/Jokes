@@ -15,5 +15,40 @@ var jokes = [
         'date': '06/15/2019',
         'comedian': 'Mitch Hedberg',
         'source': 'https://www.brainyquote.com/quotes/mitch_hedberg_401954'
-    }
+    },
+    {
+        'joke': 'John: Why are these specs so hot? I can\'t even touch them without burning my hand!',
+        'answer': 'Eric: That\'s because they\'re sunglasses.',
+        'date': '06/16/2019',
+        'comedian': 'SirKoik',
+        'source': 'https://sirkoik.github.io'
+    },
+    {
+        'joke': "I've come up with a really good way of making money.",
+        'answer': '&mdash;A counterfeiter',
+        'date': '06/16/2019',
+        'comedian': 'SirKoik',
+        'source': 'https://sirkoik.github.io'       
+    },
+    {
+        'joke': 'Where do the stars convene to decide how to manage the galaxy?',
+        'answer': 'A solar panel.',
+        'date': '06/16/2019',
+        'comedian': 'SirKoik',
+        'source': 'https://sirkoik.github.io'
+    },
+    {
+        'joke': 'Erin: Why are the comedians here so bad?',
+        'answer': 'John: Haven\'t you heard? This place is a joke.',
+        'date': '06/16/2019',
+        'comedian': 'SirKoik',
+        'source': 'https://sirkoik.github.io'
+    },
+    {
+        'joke': 'Alan: I petted this feline, but now my hands are full of spines.',
+        'answer': 'Joe: I warned you about touching catci.',
+        'date': '06/16/2019',
+        'comedian': 'SirKoik',
+        'source': 'https://sirkoik.github.io'
+    }       
 ];
