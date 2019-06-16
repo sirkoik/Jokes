@@ -1,0 +1,27 @@
+/*
+* {
+    font-family: 'comic sans ms'
+}
+*/
+
+.flex-container {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    font-size: 5vh;
+    font-style: italic;
+    width: 50%;
+    cursor: pointer;
+}
+
+.credit {
+    font-style: normal;
+    font-size: 80%;
+    text-align: right;
+}
