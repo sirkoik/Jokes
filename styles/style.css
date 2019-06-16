@@ -16,8 +16,16 @@
 .content {
     font-size: 5vh;
     font-style: italic;
-    width: 50%;
+    width: 90%;
     cursor: pointer;
+}
+
+/* for bigger screens */
+@media only screen and (min-width: 769px) {
+    .content {
+        font-size: 5vh;
+        width: 50%;
+    }
 }
 
 .credit {
