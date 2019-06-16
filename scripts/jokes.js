@@ -45,8 +45,9 @@ var Jokes = new function() {
         });
         
         document.querySelector('.rimshot').addEventListener('click', function(e) {
-            var randSoundIndex = 1 + Math.floor(Math.random() * 2);
-            document.querySelector('#audio'+randSoundIndex).play();
+            //var randSoundIndex = 1 + Math.floor(Math.random() * 2);
+            //document.querySelector('#audio'+randSoundIndex).play();
+            document.querySelector('#audio1').play();
         });
     }
 };
