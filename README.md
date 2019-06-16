@@ -10,3 +10,8 @@ Jokes page.
 * Basic features
 * Todo: Rimshot
 * Add more content!
+
+# Credits
+Rimshot sounds
+* https://freesound.org/people/Babij/sounds/115813/
+* https://freesound.org/people/xtrgamr/sounds/432972/
