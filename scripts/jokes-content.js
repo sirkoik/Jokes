@@ -50,5 +50,12 @@ var jokes = [
         'date': '06/16/2019',
         'comedian': 'SirKoik',
         'source': 'https://sirkoik.github.io'
-    }       
+    },
+    {
+        'joke': 'Greg: What\'s a good way to get attention at an ice cream social?',
+        'answer': 'John: Be lactose intolerant.',
+        'date': '06/17/2019',
+        'comedian': 'SirKoik',
+        'source': 'https://sirkoik.github.io'
+    }
 ];
