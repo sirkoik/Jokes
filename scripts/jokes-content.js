@@ -1,3 +1,14 @@
+/*
+    {
+        'joke': '',
+        'date': '',
+        'comedian': '',
+        'source': ''       
+    }
+*/
+
+
+
 var jokes = [
     {
         'joke': 'What does a Buffalo tell his son in the morning?', 
@@ -57,5 +68,11 @@ var jokes = [
         'date': '06/17/2019',
         'comedian': 'SirKoik',
         'source': 'https://sirkoik.github.io'
-    }
+    },
+    {
+        'joke': 'Our cars are very reliable. 75 percent of them are still on the road today. The other 25 percent made it home.',
+        'date': '06/22/2019',
+        'comedian': 'Reddit',
+        'source': 'https://www.reddit.com/r/Justrolledintotheshop/comments/c3ftue/the_jd_power_awards_may_be_bogus_after_all/err6u85/'       
+    }    
 ];
