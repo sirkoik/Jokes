@@ -1,6 +1,9 @@
 # Jokes
 Jokes page.
 
+# v0.0.4a
+* Added "new joke" button.
+
 # v0.0.3a
 * Added a credits section
 * All basic functionality is now here.

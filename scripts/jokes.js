@@ -1,4 +1,4 @@
-const VERSION = '0.0.3a';
+const VERSION = '0.0.4a';
 
 var Jokes = new function() {
     var alreadyShown = [];
@@ -37,16 +37,23 @@ var Jokes = new function() {
 
         return formattedJoke;
     }
+    
+    this.populateJoke = (el) => {
+        console.log(el);
+        el.innerHTML = this.toString();
+    }
 
     // bind all events.
-    this.bindEvents = function() {
+    this.bindEvents = () => {
         document.querySelector('.content').addEventListener('click', function(e) {
-            this.innerHTML = _self.toString();
+            _self.populateJoke(this);
         });
         
+        document.querySelector('.new-joke').addEventListener('click', function(e) {
+            _self.populateJoke(document.querySelector('.content'));
+        });        
+        
         document.querySelector('.rimshot').addEventListener('click', function(e) {
-            //var randSoundIndex = 1 + Math.floor(Math.random() * 2);
-            //document.querySelector('#audio'+randSoundIndex).play();
             document.querySelector('#audio1').play();
         });
 

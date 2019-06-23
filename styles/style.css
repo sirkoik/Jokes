@@ -11,6 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    flex-direction: column;
 }
 
 .content {
@@ -33,6 +35,11 @@
         font-size: 5vh;
         width: 50%;
     }
+}
+
+.new-joke {
+    font-size: 5vh;
+    cursor: pointer;
 }
 
 .credit {
